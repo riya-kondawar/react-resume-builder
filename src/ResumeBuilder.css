@@ -1,0 +1,163 @@
+/* General Layout */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.resume-builder-container {
+  max-width: 700px;
+  margin: 20px auto 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 2px solid #333;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #ff6363;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.heading {
+  background-color: #ff6363;
+  color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Input and TextArea Styling */
+input,
+textarea {
+  width: 96.5%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #e0e4ea;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #ff9f68;
+  outline: none;
+}
+
+/* Button Styling */
+button {
+  padding: 15px;
+  background-color: #ff6363;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff9f68;
+}
+
+/* Section Titles */
+h2 {
+  color: #34495e;
+  font-size: 1.8rem;
+  border-left: 6px solid #ff9f68;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.education-entry,
+.experience-entry {
+  background-color: #e0f7fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Experience and Education Containers */
+.education-entry input,
+.experience-entry input {
+  margin-bottom: 10px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-container span {
+  background-color: #ffb74d;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .resume-builder-container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}
+
+/* Enhancements */
+textarea {
+  resize: none;
+  height: 60px;
+}
+
+label {
+  font-weight: bold;
+  color: #444;
+}
+
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer i,
+span {
+  color: red;
+}
+
+footer a {
+  color: #3c97bf;
+  text-decoration: none;
+}
